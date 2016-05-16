@@ -1,13 +1,93 @@
 <!DOCTYPE html>
-<html>
 <head lang="uk">
     <meta charset="UTF-8">
-    <title>My Page</title>
-
-
+    <title>Buy List</title>
     <link rel="stylesheet" type="text/css" href="main.css" />
-</head>
+    </head>
 <body>
-<h1>Hello World</h1>
+    <div class="container">
+        <div class="twocolumns">
+            <div class="firstcolumn">
+                <div class="itemlist">
+                    <form class="addtolist">
+                        <input type="text" placeholder="Назва товару">
+                        <button class="addbutton">Додати</button>
+                    </form>
+                    
+                    <div class="addeditems">
+                        <div class="item">
+                            <div class="itemname">Помідори</div>
+                            <div class="numofitems">
+                                
+                                <button class="minusbutt">-</button>
+                                <div class="number">1</div>
+                                <button class="plusbutt">+</button>
+                            </div>
+                            <div class="manageitems">
+                            <button class="buybutton">Куплено</button>
+                            <button class="deletebutton">x</button>    
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itemname">Печиво</div>
+                            <div class="numofitems">
+                               
+                                <button class="minusbutt">-</button>
+                                <div class="number">1</div>
+                               <button class="plusbutt">+</button>
+                            </div>
+                            <div class="manageitems">
+                            <button class="buybutton">Куплено</button>
+                            <button class="deletebutton">x</button>    
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itemname">Сир</div>
+                            <div class="numofitems">
+                                
+                                <button class="minusbutt">-</button>
+                                <div class="number">1</div>
+                                <button class="plusbutt">+</button>
+                            </div>
+                            <div class="manageitems">
+                            <button class="buybutton">Куплено</button>
+                            <button class="deletebutton">x</button>    
+                            </div>
+                        </div>
+                        
+                                 
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="secondcolumn">
+                <div class="itemremaining">
+                    <div class="remain">
+                    <h3>Залишилося</h3>
+                    </div>
+                    <div class="remainlist">
+                        <div class="rem-itm">
+                            <div class="rem-itm-name">Помідори</div>
+                            <div class="rem-itm-amount">1</div>
+                        </div>
+                        <div class="rem-itm">
+                            <div class="rem-itm-name">Печиво</div>
+                            <div class="rem-itm-amount">1</div>
+                        </div>
+                        <div class="rem-itm">
+                            <div class="rem-itm-name">Сир</div>
+                            <div class="rem-itm-amount">1</div>
+                        </div>
+                    </div>
+                    <div class="buyed">
+                    <h3>Куплено</h3>
+                    </div>
+                    <div class="byuedlist">
+                    
+                    </div>
+                </div>            
+            </div>
+        </div>
+    </div>
 </body>
 </html>

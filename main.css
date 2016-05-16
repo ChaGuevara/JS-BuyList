@@ -1,3 +1,192 @@
-h1 {
-    color: red;
+body{
+    background-color: #DADADA;
+}
+button{
+    font-family: "Helvetica";
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 0px;
+    font-size: 14px;
+}
+.container{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 150px;
+    
+}
+.twocolumns{
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+   
+    
+}
+.firstcolumn, .secondcolumn{
+    box-shadow: 2px 4px 4px 0px #888888;
+    border-radius: 5px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+}
+.firstcolumn{
+    position: relative;
+    width: 55%;
+    margin-right: 20px;
+    
+}
+.secondcolumn{
+    position: relative;
+    width: 30%;
+    margin-left: 20px;
+}
+.itemlist{
+    margin: 10px 10px 10px 10px;
+}
+.addtolist{
+    margin-bottom: 20px;
+    
+}
+input{
+    padding-left: 20px;
+    border-radius: 5px;
+    height: 40px;
+    width: 73%;
+    float: left;
+    font-size: 18px;
+    text-align:left;
+    border: 1px solid lightgray;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    
+}
+.addbutton{
+    height: 45px;
+    width: 20%;
+    background-color: #2185D0;
+    color: white;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 18px;
+    box-shadow: 0px -4px 6px -3px #bbbbbb inset;
+    
+}
+.item{
+    padding-top: 5px;
+    height: 40px;
+    border-top: 1px solid lightgray;
+    
+    
+}
+.itemname, .numofitems, .manageitems{
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle
+    
+    
+}
+.itemname{
+    text-align: left;
+    padding-top: 5px;
+    font-family: "Helvetica";
+    width: 35%;
+    vertical-align: middle;
+   
+   
+    
+}
+.numofitems{
+    vertical-align: middle;
+    width: 40%;
+    
+}
+.plusbutt, .minusbutt{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    font-weight:900;
+    color: white;
+    display: inline;
+    box-shadow: 0px 0px;
+    
+    
+}
+.plusbutt{
+    background-color: limegreen;
+    
+}
+.minusbutt{
+    background-color: lightcoral;
+    
+}
+.number{
+    background-color: lightgrey;
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    
+}
+.manageitems{
+    width: 20%;
+
+    
+}
+.buybutton{
+    height: 30px;
+    width: 70%;
+    background-color: #F8F8F8;
+    border-radius: 5px;
+    display: inline;
+    color: grey;
+    box-shadow: 0px -4px 6px -3px #bbbbbb inset;
+}
+.deletebutton{
+    height: 30px;
+    width: 30px;
+    display: inline;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    background-color: #DB2828;
+    font-weight: bolder;
+    box-shadow: 0px -4px 6px -3px #bbbbbb inset;
+}
+.remainlist{
+    padding-left: 20px;
+    padding-top: 5px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    height: 40px;
+}
+.rem-itm, .rem-itm-name, .rem-itm-amount{
+    display: inline-block;
+}
+.rem-itm{
+    padding-left: 5px;
+    padding-top: 5px;
+    height: 30px;
+    background-color: lightgray;
+    border-radius: 5px;
+    font-family: "Helvetica";
+}
+.rem-itm-amount{
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+    background-color: #F2711C;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    
+}
+
+.buyedlist{
+    border-top: 1px solid lightgrey;
+    height: 40px;
+}
+h3{
+    font-family: "Helvetica";
+    margin-left: 20px;
 }

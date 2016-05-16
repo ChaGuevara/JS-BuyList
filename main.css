@@ -40,7 +40,7 @@ button{
     margin-left: 20px;
 }
 .itemlist{
-    margin: 10px 10px 10px 10px;
+    margin: 10px 0px 10px 0px;
 }
 .addtolist{
     margin-bottom: 20px;
@@ -72,6 +72,8 @@ input{
     
 }
 .item{
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 5px;
     height: 40px;
     border-top: 1px solid lightgray;
@@ -160,7 +162,7 @@ input{
     border-bottom: 1px solid lightgrey;
     height: 40px;
 }
-.rem-itm, .rem-itm-name, .rem-itm-amount{
+.rem-itm, .rem-itm-name, .rem-itm-amount, .buyed-itm, .buyed-itm-name, .buyed-itm-amount{
     display: inline-block;
 }
 .rem-itm{
@@ -181,10 +183,13 @@ input{
     color: white;
     
 }
-
+.buyed{
+    border-bottom: 1px solid lightgrey;
+}
 .buyedlist{
-    border-top: 1px solid lightgrey;
+    /*border-top: 1px solid lightgray;*/
     height: 40px;
+    
 }
 h3{
     font-family: "Helvetica";
